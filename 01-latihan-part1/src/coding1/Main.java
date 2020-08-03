@@ -23,7 +23,7 @@ class Player{
 
     void attack(Player enemy){
         double attackPower = this.weapon.attackPower;
-        System.out.println(this.name + " Attacking " + enemy.name + "with power " + attackPower);
+        System.out.println(this.name + " Attacking " + enemy.name + " with power " + attackPower);
         enemy.defence(attackPower);
     }
 
